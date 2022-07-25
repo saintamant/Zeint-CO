@@ -199,4 +199,90 @@ a:focus::after {
 	font-weight: bold;
 }
 
+/* TERMINA BLOQUE SERVICES */
+
+
+/* BLOQUE HELP YOU */
+
+
+.bloque_help{
+	background-color: rgb(140, 82, 255);
+	width: 70%;
+	margin-left: 15%;
+	padding: 1%;
+	height: 650px;
+	display: flex;
+}
+
+.bloque_help .title_help{
+	color: white;
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	width: 33%;
+}
+
+.bloque_help .title_help h2{
+	font-size: 45px;
+	letter-spacing: 2px;
+}
+
+
+.bloque_help .info_help{
+	width: 65%;
+	display: flex;
+	justify-content: space-between;             
+	align-items: center;
+	flex-direction: column;
+}
+
+.bloque_help .points{
+	display: flex;
+	/* border: solid black; */
+	justify-content: space-between;
+}
+
+.bloque_help .points .point_number{
+	color: white;
+	font-size: 40px;
+}
+
+.bloque_help .points .point_text_white{
+	color: white;
+	margin-top: -12px;
+}
+
+.bloque_help .point_text{
+	margin-left: 20px;
+	
+}
+
+/* TERMINA BLOQUE HELP */
+
+
+/* BLOQUE MAP */
+
+.bloque_map{
+	background-color: black;
+	width: 70%;
+	margin-left: 15%;
+	padding: 1%;
+	height: 650px;
+	display: flex;
+}
+
+.bloque_map .map_img img{
+	height: 600px ;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.bloque_map .city_hour .delaware .img_adress .img_delaware img{
+	height: 150px;
+	width: 150px;
+	border-radius: 80px;
+	border: solid rgb(140, 82, 255);
+	border-width: 0.3cm;
+}
+
 
