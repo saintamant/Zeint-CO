@@ -269,12 +269,55 @@ a:focus::after {
 	padding: 1%;
 	height: 650px;
 	display: flex;
+	justify-content: space-between;             
+	flex-direction: column;
+}
+
+.bloque_map .title_offices h2{
+	color: white;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+
+}
+
+.bloque_map .mapa_y_lugares{
+	display: flex;
+	justify-content: space-between;
+}
+
+.bloque_map .map_img{
+	width: 30%;
+	height: 500px;
 }
 
 .bloque_map .map_img img{
-	height: 600px ;
-	border-radius: 10px;
+	height: 500px;
 	padding: 10px;
+	
+}
+
+
+.bloque_map .city_hour{
+	width: 60%;
+	height: 500px;
+	display: flex;
+	justify-content: space-between;             
+	flex-direction: column;
+}
+
+.bloque_map .delaware{
+	display: flex;
+	
+}
+
+
+.bloque_map .img_adress{
+	width: 30%;
+	margin-left: 40px;
+	color: white;
+	text-align: center;
 }
 
 .bloque_map .city_hour .delaware .img_adress .img_delaware img{
@@ -284,5 +327,36 @@ a:focus::after {
 	border: solid rgb(140, 82, 255);
 	border-width: 0.3cm;
 }
+
+.bloque_map .delaware .live_hour_place{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	flex-direction: column;
+	margin-top: 60px;
+	color: white;
+}
+
+.bloque_map .delaware .live_hour_place .place {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.bloque_map .delaware .live_hour_place .hour {
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
