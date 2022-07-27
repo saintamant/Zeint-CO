@@ -1,30 +1,30 @@
 /* nav bar */
 
-.navbar-dark{
-  background: black;
+.navbar-dark {
+	background: black;
 }
 
-.navbar-dark .logo_navbar{
-  height: 45px;
-  width: 45px;
-  border-radius: 10px;
+.navbar-dark .logo_navbar {
+	height: 45px;
+	width: 45px;
+	border-radius: 10px;
 }
 
-#color_a{
-  color: white;
+#color_a {
+	color: white;
 }
 
-#bold{
-  font-weight: bold;
+#bold {
+	font-weight: bold;
 }
 
 .form-white.input-group>.form-control:focus {
-  border-color: #fff;
-  box-shadow: inset 0 0 0 1px #fff;
+	border-color: #fff;
+	box-shadow: inset 0 0 0 1px #fff;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff;
+	color: #fff;
 }
 
 ul {
@@ -86,43 +86,43 @@ a:focus::after {
 
 /* BLOQUE 1 */
 
-.bloque_inicio{
-  display: flex;
-  justify-content: space-between;
-  width: 70%;
-  margin-left: 15%;
-  margin-top: 3%;
-  font-family: Arial, Helvetica, sans-serif	
+.bloque_inicio {
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 3%;
+	font-family: Arial, Helvetica, sans-serif
 }
 
-.subbloque1{
-	display: flex;      
-	justify-content: space-between;             
+.subbloque1 {
+	display: flex;
+	justify-content: space-between;
 	align-items: left;
 	flex-direction: column;
 	height: 550px;
-	
+
 }
 
-.subbloque1 .logo_bloque1{
+.subbloque1 .logo_bloque1 {
 	height: 300px;
 	width: 500px;
 }
 
-.subbloque1 .tituloh1_bloque1{
+.subbloque1 .tituloh1_bloque1 {
 	font-size: 52px;
 	align-items: center;
 	text-align: left;
 	font-weight: bold;
 }
 
-.subbloque1 .subtitulo_bloque1{
+.subbloque1 .subtitulo_bloque1 {
 	font-size: 23px;
-	
+
 }
 
 
-.subbloque2 img{
+.subbloque2 img {
 	height: 550px;
 	width: 750px;
 }
@@ -135,67 +135,67 @@ a:focus::after {
 
 /* BLOQUE SERVICES */
 
-.bloque_services{
+.bloque_services {
 	background-color: rgb(247, 235, 241);
 	width: 70%;
 	margin-left: 15%;
 	margin-top: 3%;
 	padding: 1%;
 	height: 650px;
-	
+
 }
 
-.bloque_services .titulo_services{
+.bloque_services .titulo_services {
 	text-align: center;
 	margin-top: 50px;
 	text-decoration: underline;
-	
+
 }
 
 
-.centrado_bloque{
+.centrado_bloque {
 	margin-top: 100px
 }
 
 
-.bloque_detalle_services{
+.bloque_detalle_services {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 25px;
 	height: 300px;
 }
 
-.bloque_software{
+.bloque_software {
 	display: flex;
-	justify-content: space-between;             
+	justify-content: space-between;
 	align-items: center;
 	flex-direction: column;
 }
 
 
-.bloque_software .titulo_software{
+.bloque_software .titulo_software {
 	font-weight: bold;
 }
 
-.bloque_staff{
+.bloque_staff {
 	display: flex;
-	justify-content: space-between;             
+	justify-content: space-between;
 	align-items: center;
 	flex-direction: column;
 }
 
-.bloque_staff .titulo_staff{
+.bloque_staff .titulo_staff {
 	font-weight: bold;
 }
 
-.bloque_quality{
+.bloque_quality {
 	display: flex;
-	justify-content: space-between;             
+	justify-content: space-between;
 	align-items: center;
 	flex-direction: column;
 }
 
-.bloque_quality .titulo_quality{
+.bloque_quality .titulo_quality {
 	font-weight: bold;
 }
 
@@ -205,7 +205,7 @@ a:focus::after {
 /* BLOQUE HELP YOU */
 
 
-.bloque_help{
+.bloque_help {
 	background-color: rgb(140, 82, 255);
 	width: 70%;
 	margin-left: 15%;
@@ -214,7 +214,7 @@ a:focus::after {
 	display: flex;
 }
 
-.bloque_help .title_help{
+.bloque_help .title_help {
 	color: white;
 	align-items: center;
 	display: flex;
@@ -222,58 +222,60 @@ a:focus::after {
 	width: 33%;
 }
 
-.bloque_help .title_help h2{
+.bloque_help .title_help h2 {
 	font-size: 45px;
 	letter-spacing: 2px;
 }
 
 
-.bloque_help .info_help{
+.bloque_help .info_help {
 	width: 65%;
 	display: flex;
-	justify-content: space-between;             
+	justify-content: space-between;
 	align-items: center;
 	flex-direction: column;
 }
 
-.bloque_help .points{
+.bloque_help .points {
 	display: flex;
 	/* border: solid black; */
 	justify-content: space-between;
 }
 
-.bloque_help .points .point_number{
+.bloque_help .points .point_number {
 	color: white;
 	font-size: 40px;
 }
 
-.bloque_help .points .point_text_white{
+.bloque_help .points .point_text_white {
 	color: white;
 	margin-top: -12px;
 }
 
-.bloque_help .point_text{
+.bloque_help .point_text {
 	margin-left: 20px;
-	
+
 }
 
 /* TERMINA BLOQUE HELP */
 
 
+
+
 /* BLOQUE MAP */
 
-.bloque_map{
+.bloque_map {
 	background-color: black;
 	width: 70%;
 	margin-left: 15%;
 	padding: 1%;
 	height: 650px;
 	display: flex;
-	justify-content: space-between;             
+	justify-content: space-between;
 	flex-direction: column;
 }
 
-.bloque_map .title_offices h2{
+.bloque_map .title_offices h2 {
 	color: white;
 	align-items: center;
 	display: flex;
@@ -282,45 +284,45 @@ a:focus::after {
 
 }
 
-.bloque_map .mapa_y_lugares{
+.bloque_map .mapa_y_lugares {
 	display: flex;
 	justify-content: space-between;
 }
 
-.bloque_map .map_img{
+.bloque_map .map_img {
 	width: 30%;
 	height: 500px;
 }
 
-.bloque_map .map_img img{
+.bloque_map .map_img img {
 	height: 500px;
 	padding: 10px;
-	
+
 }
 
 
-.bloque_map .city_hour{
+.bloque_map .city_hour {
 	width: 60%;
 	height: 500px;
 	display: flex;
-	justify-content: space-between;             
+	justify-content: space-between;
 	flex-direction: column;
 }
 
-.bloque_map .delaware{
+.bloque_map .delaware {
 	display: flex;
-	
+
 }
 
 
-.bloque_map .img_adress{
+.bloque_map .img_adress {
 	width: 30%;
 	margin-left: 40px;
 	color: white;
 	text-align: center;
 }
 
-.bloque_map .city_hour .delaware .img_adress .img_delaware img{
+.bloque_map .city_hour .delaware .img_adress .img_delaware img {
 	height: 150px;
 	width: 150px;
 	border-radius: 80px;
@@ -328,7 +330,7 @@ a:focus::after {
 	border-width: 0.3cm;
 }
 
-.bloque_map .delaware .live_hour_place{
+.bloque_map .delaware .live_hour_place {
 	display: flex;
 	align-items: center;
 	width: 100%;
@@ -348,11 +350,81 @@ a:focus::after {
 	margin-top: 15px;
 }
 
+/* TERMINA BLOQUE MAP */
 
 
 
 
 
+/*BLOQUE HELP */
+
+.bloque_why_to_choose {
+	background-color: rgb(247, 235, 241);
+	width: 70%;
+	margin-left: 15%;
+	height: 650px;
+	padding: 5px;
+}
+
+.bloque_why_to_choose .titulo_zeintco {
+	text-align: center;
+	margin-top: 50px;
+	letter-spacing: 4px;
+}
+
+.bloque_why_to_choose .parrafos {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	margin-top: 35px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.bloque_why_to_choose .parrafo {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.bloque_why_to_choose .grid_iconos {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 14px;
+	grid-row-gap: 16px;
+	margin-top: 30px;
+
+}
+
+.bloque_why_to_choose .div_timezones{
+	display: flex;
+}
+
+
+.bloque_why_to_choose .icono i{
+position:relative;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+margin-right: 30px;
+
+}
+
+.bloque_why_to_choose .texto_div{
+	margin-top: 5px;
+}
+
+.bloque_why_to_choose .texto_div span{
+	margin-top: 3px;
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+.bloque_why_to_choose .texto_div div{
+	margin-top: 1px;
+	margin-left: 5px;
+	width: 80%;
+}
 
 
 
