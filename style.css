@@ -356,7 +356,7 @@ a:focus::after {
 
 
 
-/*BLOQUE HELP */
+/*BLOQUE WHY TO CHOOSE */
 
 .bloque_why_to_choose {
 	background-color: rgb(247, 235, 241);
@@ -426,9 +426,127 @@ margin-right: 30px;
 	width: 80%;
 }
 
+/* TERMINA BLOQUE WHY TO CHOOSE */
 
 
 
+/* BLOQUE FORM */
 
 
+.bloque_form {
+	background-color: black;
+	width: 70%;
+	margin-left: 15%;
+	padding: 1%;
+	height: 650px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+
+.bloque_form .title_zeintco h2 {
+	color: white;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	letter-spacing: 5px;
+}
+
+.bloque_form .div_texto_form{
+	display: flex;
+	
+	height: 500px;
+	
+}
+
+.bloque_form .div_texto{
+	
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	
+}
+
+.bloque_form .div_form{
+	width: 150%;
+	padding: 30px;
+}
+
+.bloque_form .div_texto .div_texto1{
+	width: 70%;
+	margin-left: 15%;
+	font-size: larger;
+	color: white;
+	
+}
+
+.bloque_form .div_form .subtitle_zeintco{
+	color: white;
+	font-size: 19px;
+	margin-bottom: 25px;
+}
+
+.bloque_form .div_form .form-group {
+	margin-bottom: 25px;
+	width: 70%;
+}
+
+.bloque_form .div_form .form-group .form-control-a {
+	height: 100px;
+	width: 100%;
+}
+
+.bloque_form .div_form button {
+	background-color: rgb(140, 82, 255);
+	border: rgb(140, 82, 255);
+	width: 150px;
+}
+
+/*TERMINA BLOQUE FORM */
+
+/* FOOTER */
+
+.footer hr{
+	width: 70%;
+	margin-left: 15%;
+}
+
+.footer .footer_div{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 25px;
+	width: 70%;
+	margin-left: 15%;
+	padding: 1%;
+	height: 150px;
+	margin-top: 50px;
+}
+
+.footer .footer_div .City{
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer .footer_div .center_div_city{
+	text-align:left;
+}
+
+.footer .footer_div .adress_main{
+	font-weight: bold;
+}
+
+.footer .footer_div .iconos_redes{
+	display: flex;
+	justify-content: end;
+	gap: 45px;
+}
+
+.footer .footer_div .copyright{
+	font-size: small;
+	display: flex;
+	justify-content: end;
+	margin-top: 15px;
+}
 
