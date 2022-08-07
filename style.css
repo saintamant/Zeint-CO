@@ -297,6 +297,7 @@ a:focus::after {
 .bloque_map .map_img {
 	width: 30%;
 	height: 500px;
+	border-radius: 5px;
 }
 
 .bloque_map .map_img img {
