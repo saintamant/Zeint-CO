@@ -58,6 +58,7 @@ var violetIcon = new L.Icon({
 L.marker([39.455085, -75.725542], {icon: violetIcon}).addTo(map)
     .bindPopup('Middletown, DE 651 N Broad St, Ste 205 #8839')
     
+    
 
 L.marker([-34.6193485, -58.3632725], {icon: violetIcon}).addTo(map)
 .bindPopup('Buenos Aires, ARG Lola Mora 421 , Puerto Madero')

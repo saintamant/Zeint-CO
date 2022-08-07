@@ -549,6 +549,11 @@ margin-right: 30px;
 	gap: 45px;
 }
 
+.footer .footer_div .iconos_redes a{
+	text-decoration: none;
+	color: #212529;
+}
+
 .footer .footer_div .copyright{
 	font-size: small;
 	display: flex;
