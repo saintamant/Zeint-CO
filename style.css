@@ -2,12 +2,17 @@
 
 .navbar-dark {
 	background: black;
+	
 }
 
 .navbar-dark .logo_navbar {
 	height: 45px;
 	width: 45px;
 	border-radius: 10px;
+}
+.navbar-nav{
+	
+	margin-left: 30%;
 }
 
 #color_a {

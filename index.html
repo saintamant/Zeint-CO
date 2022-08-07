@@ -15,21 +15,21 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark hover-underline-animation">
+        <nav class="navbar navbar-expand-lg navbar-dark hover-underline-animation fixed-top  ">
             <div class="container-fluid">
 
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
                     <li class="nav-item px-3">
-                        <a class="nav-link nav-link-ltr" href=#>HOME</a>
+                        <a class="nav-link nav-link-ltr" href=index.html>HOME</a>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link nav-link-ltr" href=#>SERVICES</a>
+                        <a class="nav-link nav-link-ltr" href="#services">SERVICES</a>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link nav-link-ltr" href=#>ABOUT US</a>
+                        <a class="nav-link nav-link-ltr" href="#aboutus">ABOUT US</a>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link nav-link-ltr" href=#>CONTACT US</a>
+                        <a class="nav-link nav-link-ltr" href="#weare">CONTACT US</a>
                     </li>
                 </ul>
             </div>
@@ -53,7 +53,7 @@
         </div>
     </div>
 
-    <div class="bloque_services">
+    <div class="bloque_services" id="services">
         <h3 class="titulo_services">SERVICES</h3>
         <div class="centrado_bloque">
             <div class="bloque_detalle_services">
@@ -203,8 +203,8 @@
                         <div class="place">
                             Middletown , Delaware, US
                         </div>
-                        <div class="hour">
-                            7:20 PM
+                        <div class="hour" id="hour">
+                            
                         </div>
                     </div>
                 </div>
@@ -224,8 +224,8 @@
                         <div class="place">
                             Puerto Madero , Buenos Aires, ARG
                         </div>
-                        <div class="hour">
-                            7:20 PM
+                        <div class="hour" id="hourbsas">
+                            
                         </div>
 
                     </div>
@@ -235,7 +235,7 @@
         </div>
     </div>
 
-    <div class="bloque_why_to_choose">
+    <div class="bloque_why_to_choose" id="aboutus">
         <h3 class="titulo_zeintco">WHY TO CHOOSE ZEINT CO?</h3>
         <div class="parrafos">
             <div class="parrafo">When thinking of outsourcing web development services, India, China, and Eastern
@@ -319,7 +319,7 @@
         </div>
     </div>
 
-    <div class="bloque_form">
+    <div class="bloque_form" id="weare">
         <div class="title_zeintco">
             <h2>WE ARE ZEINT CO</h2>
         </div>
@@ -343,31 +343,33 @@
                 </div>
 
             </div>
+            
             <div class="div_form">
                 <div class="subtitle_zeintco">
                     Talk to our Sales team
                 </div>
-                <form>
+                <form action="sendEmail.php" method="post">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="First Name">
+                        <input type="text"  name="name" class="form-control" placeholder="Full Name" id="name">
+                    </div>
+                     <div class="form-group">
+                        <input type="text" name="subject" class="form-control" placeholder="Subject" id="subject">
+                    </div> 
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control" placeholder="Business Email" id="email">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Last Name">
+                        <input type="text" name= "message" class="form-control-a" placeholder="Message" id="message">
                     </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Buesiness Email">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control-a" placeholder="Message">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit"  value="Send An Email">Submit</button>
                 </form>
 
 
-            </div>
+            </div> 
 
         </div>
     </div>
+
 
     <footer class="footer">
         <hr>
@@ -420,6 +422,12 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/628c8d2499.js" crossorigin="anonymous"></script>
+
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+	
+
+
+    <script src="app.js"></script>
 
 </body>
 
